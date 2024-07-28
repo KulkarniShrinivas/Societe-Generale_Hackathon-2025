@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="logo-details-container">
           <img
             className="logo-img"
-           
+            loading="lazy"
             src={footerData.logo}
             alt="Marathi Sarvapooja Logo"
           />

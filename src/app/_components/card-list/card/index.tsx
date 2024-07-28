@@ -18,7 +18,7 @@ const Card = ({ poojaTitle, src, handleViewMoreClick }: Props) => {
         <h2 onClick={handleViewMoreClick}>{poojaTitle}</h2>
       </header>
       <div className="card-img">
-        <Image src={src} width={250} height={250} alt={poojaTitle} />
+        <Image src={src} width={250} height={250} loading="lazy" alt={poojaTitle} />
       </div>
 
       <div className="tags">

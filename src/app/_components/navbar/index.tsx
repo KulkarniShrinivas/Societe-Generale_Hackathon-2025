@@ -23,7 +23,7 @@ const Navbar = () => {
                     <div className="logo-container">
                         <Link href="/">
                             <Image
-                                
+                                loading="lazy"
                                 src="https://res.cloudinary.com/dckh0xu7s/image/upload/v1717906159/logo_bcbcuz.png"
                                 alt="MarathiSarvaPooja Logo"
                                 height={50}
