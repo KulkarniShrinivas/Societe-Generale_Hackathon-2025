@@ -18,7 +18,7 @@ const CardTilt = (props: any) => {
         <div className="img-container">
           <Image
             src={props.img}
-            loading="lazy"
+            
             alt={props.title}
             width={props?.width || "180"}
             height={props?.width || "180"}
